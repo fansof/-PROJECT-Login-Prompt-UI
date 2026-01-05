@@ -14,7 +14,7 @@ session_start();
 
 // Konfigurasi database untuk sistem tracking login attempts
 $admin_host = 'localhost';
-$admin_user = 'PASSWORD'; // User admin untuk mengakses tabel tracking
+$admin_user = 'root'; // User admin untuk mengakses tabel tracking
 $admin_pass = ''; // Ganti dengan password Admin MySQL Anda ---- Default XAMPP password. DO NOT use this in production.
 $database = 'login_system';
 
